@@ -1,0 +1,158 @@
+body {
+  background-color: black;
+  color: antiquewhite;
+}
+.header{
+  border-bottom: 1px solid royalblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 200px;
+  white-space: no-wrap;
+}
+.username{
+  overflow: hidden;
+  
+  margin: 10px;
+  padding: 10px;
+  font-size: 50px;
+  cursor: pointer;
+  color: royalblue;
+  white-space: nowrap;
+  text-shadow: 
+  0 0 1px #4169e1,    /* Inner glow */
+  0 0 3px #4169e1,   /* Medium glow */
+  0 0 6px #4169e1,   /* Outer glow */
+  0 0 10px #27408b,   /* Fainter outer glow */
+  0 0 15px #1e3a8a,   /* Larger fainter glow */
+  0 0 20px #1a237e;   
+  transform: scale(1);
+  transition: text-shadow 0.3s ease, color 0.3s ease;
+  animation: 
+  typing 1s steps(40, end),
+  blink-caret .75s step-end infinite;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+  }
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+  from, to { border-color: royalblue }
+  50% { border-color: royalblue; }
+  }
+.username:hover{
+  transform: scale(1.05);
+  text-shadow: 0 0 10px #1e3a8a, 
+  0 0 10px #4169e1,    /* Inner glow */
+  0 0 20px #4169e1,   /* Medium glow */
+  0 0 30px #4169e1,   /* Outer glow */
+  0 0 40px #27408b,   /* Fainter outer glow */
+  0 0 50px #1e3a8a,   /* Larger fainter glow */
+  0 0 60px #1a237e;
+}
+.navbar-container{
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  min-width: 200px;
+  overflow: visible;
+}
+.navbar{
+  display: flex;
+  list-style: none;
+  color: royalblue;
+  text-shadow: 1px 1px 1px royalblue;
+}
+.nav-items{
+  margin: 10px;
+  margin-right: 30px;
+  font-size: 25px;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  padding-left: 20px ;
+  padding-right: 20px ;
+  transition: all 0.3s ease;
+}
+.nav-items:hover{
+  text-shadow: none;
+  background-color: royalblue;
+  color: black;
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(65, 105, 225, 0.6), /* Soft inner glow */
+              0 0 20px rgba(65, 105, 225, 0.8), /* Medium glow */
+              0 0 30px rgba(65, 105, 225, 1),   /* Strong outer glow */
+              0 0 40px rgba(65, 105, 225, 0.5);
+}
+.details-container{
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+.user-image-container{
+  justify-content: center;
+  padding: 10px;
+  margin: 5px;
+}
+.user-image{
+  border-radius: 30%;
+  max-width: 450px;
+  cursor: pointer;
+  object-fit: cover; 
+  transform: scale(0);
+  transition: transforn  0.3s ease scale(1); 
+  animation: scaleUp 1s forwards; /* Animation to scale up the image */
+}
+
+@keyframes scaleUp {
+  0% {
+    transform: scale(0);           /* Start scaled down */
+  }
+  100% {
+    transform: scale(1);           /* End at full size */
+  }
+}
+.details-box{
+  padding: 30px;
+  display:wrap;
+}
+.full-name{
+  overflow: hidden;
+  font-size: 30px;
+  font-weight: bold;
+  
+  color: royalblue;
+  white-space: nowrap;
+  display: inline-block;         /* Make the element behave like inline text */
+  animation: 
+  typing 3.5s steps(40, end),
+  blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+from { width: 0 }
+to { width: 100% }
+}
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+from, to { border-color: royalblue }
+50% { border-color: royalblue; }
+}
+.description{
+  font-size: large;
+}
+.referecne-links{
+  align-items: center;
+}
+.ref-img{
+  width: 70px;
+  height: 70px;
+  transform: scale(1);
+  transition: transform 0.3s ease;
+}
+.ref-img:hover{
+  transform: scale(1.3);
+}
