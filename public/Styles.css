@@ -86,6 +86,7 @@ body {
               0 0 40px rgba(65, 105, 225, 0.5);
 }
 .details-container{
+
   display: flex;
   margin-top: 10px;
   justify-content: space-evenly;
@@ -98,7 +99,7 @@ body {
 }
 .user-image{
   border-radius: 30%;
-  max-width: 450px;
+  max-width: 500px;
   cursor: pointer;
   object-fit: cover; 
   transform: scale(0);
@@ -122,7 +123,6 @@ body {
   overflow: hidden;
   font-size: 30px;
   font-weight: bold;
-  
   color: royalblue;
   white-space: nowrap;
   display: inline-block;         /* Make the element behave like inline text */
@@ -145,14 +145,76 @@ from, to { border-color: royalblue }
   font-size: large;
 }
 .referecne-links{
+  margin: 10px;
+  display: flex;
   align-items: center;
+  justify-content: center;
 }
 .ref-img{
   width: 70px;
   height: 70px;
   transform: scale(1);
+  margin-left: 20px;
   transition: transform 0.3s ease;
+  cursor: pointer;
 }
 .ref-img:hover{
   transform: scale(1.3);
+}
+.skills-container{
+  margin-top:10px ;
+  display: wrap;
+}
+.component-header{
+  justify-items: center;
+  font-size: xx-large;
+  font-weight: bold;
+  color: royalblue;
+  cursor: pointer;
+}
+.header-name:hover{
+  text-shadow: 0 0 10px rgba(65, 105, 225, 0.6), /* Soft inner glow */
+              0 0 20px rgba(65, 105, 225, 0.8), /* Medium glow */
+              0 0 30px rgba(65, 105, 225, 1),   /* Strong outer glow */
+              0 0 40px rgba(65, 105, 225, 0.5);
+  text-decoration: underline;
+  transform: scale(1.1);
+}
+.skill-type-container{
+  display: wrap;
+  padding: 20px ;
+}
+.type-header{
+  color: #27408b;
+  font-size: x-large;
+  transition: all 0.3s ease;
+}
+.type-header:hover{
+  text-shadow:  0 0 20px rgba(65, 105, 225, 0.8), /* Medium glow */
+              0 0 30px rgba(65, 105, 225, 1),   /* Strong outer glow */
+              0 0 40px rgba(65, 105, 225, 0.5);
+  z-index: 1;
+
+}
+.skill-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-left:100px;
+}
+.skill-details{
+  margin: 20px;
+  display: wrap;
+  justify-items: center;
+  transform: scale(1);
+  transition: all 0.3s ease;
+}
+.skill-details:hover{
+  border: 1px solid royalblue;
+  box-shadow: 0 0 10px rgba(65, 105, 225, 0.6), /* Soft inner glow */
+              0 0 20px rgba(65, 105, 225, 0.8), /* Medium glow */
+              0 0 30px rgba(65, 105, 225, 1),   /* Strong outer glow */
+              0 0 40px rgba(65, 105, 225, 0.5);
+  transform: scale(1.1);
+  z-index: 1;
 }
