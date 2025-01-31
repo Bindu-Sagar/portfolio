@@ -13,7 +13,7 @@ const Skills = () =>{
               {
                 skillType.skills.map((skill,skillIndex)=>(
                     <div className="skill-details">
-                      <img src={skill.ref}/>
+                      <img src={skill.ref} alt="logo"/>
                       <p>{skill.name}</p>
                     </div>
                   ) 

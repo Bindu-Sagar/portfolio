@@ -12,7 +12,7 @@ body {
 }
 .username{
   overflow: hidden;
-  
+  position: relative;
   margin: 10px;
   padding: 10px;
   font-size: 50px;
@@ -52,6 +52,7 @@ body {
   0 0 60px #1a237e;
 }
 .navbar-container{
+  
   display: flex;
   text-decoration: none;
   list-style: none;
@@ -216,5 +217,47 @@ from, to { border-color: royalblue }
               0 0 30px rgba(65, 105, 225, 1),   /* Strong outer glow */
               0 0 40px rgba(65, 105, 225, 0.5);
   transform: scale(1.1);
+  z-index: 1;
+}
+.experience-container{
+  display: wrap;
+  padding: 20px;
+}
+.experience-card{
+  display:wrap;
+  border: 1px solid royalblue;
+  margin-top: 10px;
+  padding: 10px;
+  padding-left: 30px;
+  transform: scale(1);
+  transition: all 0.3s ease;  
+  cursor: pointer;
+  position: relative;
+}
+.role{
+  font-size: x-large;
+  font-weight: bold;
+  color: royalblue;
+}
+.company{
+  font-size: large;
+  font-weight: bold;
+  color: #27408b;
+}
+.date{
+  font-size: large;
+  font-weight: bold;
+  color: #27408b;
+}
+.job-description{
+  font-size: large;
+}
+.experience-card:hover{
+  border: 1px solid royalblue;
+  box-shadow: 0 0 10px rgba(65, 105, 225, 0.6), /* Soft inner glow */
+              0 0 20px rgba(65, 105, 225, 0.8), /* Medium glow */
+              0 0 30px rgba(65, 105, 225, 1),   /* Strong outer glow */
+              0 0 40px rgba(65, 105, 225, 0.5);
+  transform: scale(1.02);
   z-index: 1;
 }
