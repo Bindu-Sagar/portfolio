@@ -1,26 +1,30 @@
-import avatar from '../utils/images/avatar.png';
-import linkedin from '../utils/images/linkedin.png'
-import github from '../utils/images/github.png'
-import gmail from '../utils/images/gmail2.png'
+import intro from "../constants/intro";
 const Description = () =>{
-
   return(
-    <div className="details-container">
-      <div className="user-image-container">
-        <img className="user-image" src={avatar} alt="User" /> 
-      </div>
-      <div className='details-box'>
-        <div>
-          <p className='full-name'>Bindu Sagar Singanamalla</p>
-          <p className='description'>A full stack developer handles both the front end (UI/UX, HTML, CSS, JavaScript) and back end (server, databases, APIs) of a web application. They can build and maintain both client and server-side features.</p>
+    <div className="details-container" id="description">
+      {intro.map((data, index) => (
+        <><div className="user-image-container">
+          <img className="user-image" src={data.image} alt="User" />
         </div>
-        <div className='referecne-links'>
-            <img className='ref-img' src={linkedin} alt='logo'/>
-            <img className='ref-img' src={github} alt='logo'/>
-            <img className='ref-img' src={gmail} alt='logo'/>
-
-        </div>
-      </div>
+        <div className='details-box'>
+            <div>
+              <p className='full-name'>Bindu Sagar Singanamalla</p>
+              <>
+                <p className='des-lines'>{data.description[0]}</p>
+                <ul className='description'>
+                  {data.description.slice(1).map((desc, index) => (
+                    <li key={index}><p className='des-lines'>{desc}</p></li>
+                  ))}
+                </ul>
+              </>
+              </div>
+            <div className='referecne-links'>
+              <a href={data.linkedinURL}><img className='ref-img' src={data.linkedinImg} alt='logo' /></a>
+              <a href={data.githubURL}><img className='ref-img' src={data.githubImg} alt='logo' /></a>
+              <a href={`https://mail.google.com/mail/?view=cm&fs=1&to=${data.email}`}><img className='ref-img' src={data.gmailImg} alt='logo' /></a>
+            </div>
+          </div></>
+      ))}
     </div>
   )
 }

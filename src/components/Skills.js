@@ -1,7 +1,7 @@
 import skillSet from "../constants/skillSet";
 const Skills = () =>{
   return(
-    <div className="skills-container">
+    <div className="skills-container" id="skills">
       <div className="component-header">
         <p className="header-name">Skills</p>
       </div>
