@@ -19,9 +19,9 @@ const Description = () =>{
               </>
               </div>
             <div className='referecne-links'>
-              <a href={data.linkedinURL}><img className='ref-img' src={data.linkedinImg} alt='logo' /></a>
-              <a href={data.githubURL}><img className='ref-img' src={data.githubImg} alt='logo' /></a>
-              <a href={`https://mail.google.com/mail/?view=cm&fs=1&to=${data.email}`}><img className='ref-img' src={data.gmailImg} alt='logo' /></a>
+              <a className="img-links" href={data.linkedinURL}><img className='ref-img' src={data.linkedinImg} alt='logo' /></a>
+              <a className="img-links" href={data.githubURL}><img className='ref-img' src={data.githubImg} alt='logo' /></a>
+              <a className="img-links" href={`https://mail.google.com/mail/?view=cm&fs=1&to=${data.email}`}><img className='ref-img' src={data.gmailImg} alt='logo' /></a>
             </div>
           </div></>
       ))}

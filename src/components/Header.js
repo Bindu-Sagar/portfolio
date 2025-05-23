@@ -19,8 +19,9 @@ const Header = () => {
         <ul className="navbar">
         <a href="#skills" className="nav-link"><li className="nav-items">Skills</li></a>
         <a href="#experience" className="nav-link"><li className="nav-items">Experience  </li></a>
-        <a href="#certificates" className="nav-link">  <li className="nav-items">Certificates</li></a>
         <a href="#projects" className="nav-link">  <li className="nav-items">Projects</li></a>
+        <a href="#education" className="nav-link"><li className="nav-items">Education</li></a>
+        <a href="#certificates" className="nav-link">  <li className="nav-items">Certificates</li></a>
         <a href="#contact" className="nav-link">  <li className="nav-items">Contact</li></a>
         </ul>
       </nav>

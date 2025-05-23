@@ -1,4 +1,3 @@
-import Description from "../components/Description";
 
 const intro = [
   {
@@ -11,7 +10,7 @@ const intro = [
     "Strong advocate for clean code, agile practices, and delivering robust, maintainable software that meets real-world business needs."
   ],
   title:" Java Full Stack Developer",
-  image: require("../utils/images/profile.png"),
+  image: require("../utils/images/profile2.png"),
   linkedinImg: "https://img.icons8.com/?size=100&id=8808&format=png&color=228BE6",
   githubImg: "https://img.icons8.com/?size=100&id=12599&format=png&color=228BE6",
   gmailImg: "https://img.icons8.com/?size=100&id=Y2GfpkgYNp42&format=png&color=228BE6",
