@@ -1,6 +1,6 @@
-import './App.css';
+import "./Styles.css";
 import Portfolio from './components/Portfolio';
-import { createBrowserRouter, RouterProvider } from 'react-router';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 function App() {
   const appRouter = createBrowserRouter(
@@ -11,7 +11,7 @@ function App() {
       },
     ],
     {
-      basename: "/portfolio", // ✅ This is the key for GitHub Pages
+      basename: "/portfolio", 
     }
   );
 
