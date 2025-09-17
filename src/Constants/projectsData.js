@@ -3,7 +3,7 @@ const projectsData = [
     id: 1,
     title: "Enterprise Claims Automation Platform",
     role: "Java Full Stack Developer",
-    client: "Allstate, Kansas",
+    client: "Bank of America, Kansas",
     duration: "Nov 2024 – Present",
     responsibilities: [
       "Optimized React components with memoization and lazy loading, reducing page load time by 50%.",
@@ -19,7 +19,7 @@ const projectsData = [
     id: 2,
     title: "Microservices Development and DevOps",
     role: "Java Full Stack Developer",
-    client: "Zensar Technologies, India",
+    client: "Accenture, India",
     duration: "Jul 2020 – Jun 2023",
     responsibilities: [
       "Created reusable custom React hooks to encapsulate complex DOM logic and improve maintainability.",

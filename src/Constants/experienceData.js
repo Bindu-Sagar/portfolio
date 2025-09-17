@@ -1,34 +1,37 @@
 const experienceData = [
   {
     id: 1,
-    company: "Allstate, Kansas",
-    role: "Java Full Stack Developer",
+    company: "Bank of America, Kansas",
+    role: "Software Engineer",
     duration: "Nov 2024 – Present",
     responsibilities: [
-      "Optimized React components with memoization and lazy loading, reducing page load time by 50%.",
-      "Built scalable microservices using Spring Boot, REST APIs, and Apache Kafka for inter-service communication.",
-      "Implemented JWT-based authorization using RS256, reducing unauthorized access incidents by 35%.",
-      "Designed Kubernetes networking with Ingress, LoadBalancer, and Service Mesh to boost API performance.",
-      "Developed a robust data layer using Spring Data JPA with optimized queries and caching.",
-      "Integrated MongoDB with Spring Boot, reducing data read/write latencies by 35%.",
-      "Improved testability with Mockito, cutting integration testing time by 40%."
+      "Managed the full SDLC for mission-critical financial applications using Agile, Scrum, and Kanban.",
+      "Provided 24/7 production support and delivered proof-of-concept presentations to guide strategic decisions.",
+      "Developed secure and scalable microservices with Spring Boot and RESTful APIs.",
+      "Collaborated with cross-functional teams to resolve complex API integration issues, achieving 90% first-time deployment success.",
+      "Engineered high-performance microservices to handle financial transactions, improving scalability by 30%.",
+      "Built responsive React UIs with memoization and code-splitting, reducing JavaScript bundle size by 20%.",
+      "Automated CI/CD pipelines using Azure DevOps, reducing deployment time and increasing frequency by 50%.",
+      "Integrated 18+ APIs via Azure Data Factory for secure ETL processes, enhancing data security by 70%.",
+      "Implemented financial-grade security protocols and encryption to safeguard customer data.",
+      "Migrated legacy apps to Microsoft Azure with AKS and Azure SQL, improving resilience and reducing costs by 25%."
     ]
   },
   {
     id: 2,
-    company: "Zensar Technologies, India",
-    role: "Java Full Stack Developer",
+    company: "Accenture, India",
+    role: "Software Engineer",
     duration: "Jul 2020 – Jun 2023",
     responsibilities: [
-      "Created custom React hooks to encapsulate complex DOM logic and improve code reusability.",
-      "Built RESTful APIs using Spring MVC and Spring WebFlux for clean and scalable data access.",
-      "Developed Spring Boot microservices to handle increased concurrency and reduce response time by 50%.",
-      "Implemented SSL encryption across microservices, mitigating MITM attacks and ensuring 99.9% secure transmissions.",
-      "Automated deployments using Docker and CI/CD pipelines, reducing production errors.",
-      "Designed OAuth2.0 authentication flows with Spring Security and Keycloak for 100K+ users, integrating SSO and RBAC.",
-      "Built DAO layer using Spring ORM with Hibernate (HQL, SQL, annotations, and collections).",
-      "Improved message reliability by 50% using RabbitMQ in the microservices communication layer.",
-      "Automated AWS infrastructure with CloudFormation, reducing configuration errors by 50%."
+      "Led the SDLC for enterprise applications using Java, Spring Boot, and REST APIs.",
+      "Built scalable React.js frontends using hooks and reusable components, reducing development time by 25%.",
+      "Improved database performance by 30% with optimized MongoDB pipelines and refined SQL queries.",
+      "Implemented CI/CD with AWS CodePipeline, CodeBuild, and CodeDeploy, accelerating release cycles by 20%.",
+      "Developed secure RESTful APIs for CRUD operations and data exchange with MongoDB and SQL Server.",
+      "Applied advanced data structures and algorithms to optimize application logic and system efficiency.",
+      "Improved scalability with multi-threading, concurrency, and JVM performance tuning.",
+      "Implemented Infrastructure as Code with AWS CloudFormation for standardized cloud provisioning.",
+      "Enhanced security with OAuth 2.0 authentication, input validation, and encryption protocols."
     ]
   }
 ];

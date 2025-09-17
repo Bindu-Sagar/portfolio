@@ -661,6 +661,10 @@ a{
   .experience-tab {
     min-width: 180px;
     text-align: center;
+    
+  }
+  .experience-detail {
+    width: 100%;
   }
 }
 

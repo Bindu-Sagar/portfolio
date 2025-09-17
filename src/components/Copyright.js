@@ -2,7 +2,7 @@ const Copyright = () => {
   
   return (
     <div className="copyright">
-      <p>@ Copyright By Bindu Sagar</p>
+      <p>@ All Copyrights are reserved</p>
     </div>
   )
 
