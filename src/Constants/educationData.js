@@ -2,7 +2,7 @@ const educationData = [
   {
     institution: "University of Central Missouri",
     degree: "Masters in Computer Science",
-    period: "2018 - 2022",
+    period: "2023 - 2025",
     details: [
       "Graduated with Honors",
       "Relevant Coursework: Data Structures, Algorithms, Database Systems, Operating Systems",
