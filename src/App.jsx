@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion, useScroll, useSpring } from 'framer-motion';
 import './App.css';
 
-// --- CONFIGURATION ---
+// --- CONFIGURATION'S ---
 const sections = [
   { id: 'home', label: '// CONTEXT' },
   { id: 'philosophy', label: '// PHILOSOPHY' },
